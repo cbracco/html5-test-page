@@ -8,7 +8,7 @@ The HTML elements are loosely categorized as either text, embedded content, or f
 
 ## Versioning
 
-Cardinal will be maintained using the [Semantic Versioning](http://semver.org/) guidelines. From here on out, releases will be numbered using the following format:
+HTML5 Test Page will be maintained using the [Semantic Versioning](http://semver.org/) guidelines. From here on out, releases will be numbered using the following format:
 
 `major.minor.patch`
 
