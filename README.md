@@ -1,4 +1,4 @@
-# HTML5 Test Page - 0.1.0
+# HTML5 Test Page
 
 This is a test page filled with common HTML elements to be used to provide visual feedback whilst building CSS systems and frameworks.
 
@@ -28,4 +28,4 @@ HTML Test Page is licensed under the MIT Open Source license. For more informati
 
 ## Colophon
 
-Made by [@cbracco](http://twitter.com/cbracco).
+Made by [@cbracco](http://cbracco.me).
