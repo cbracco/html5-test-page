@@ -1,3 +1,7 @@
+# 0.2.2 (May 13, 2015)
+
+- Fix validation errors.
+
 # 0.2.1 (March 21, 2015)
 
 - Fix duplicate IDs and formatting.
