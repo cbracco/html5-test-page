@@ -22,7 +22,7 @@
                         <li><a href="#text__lists">Lists</a></li>
                         <li><a href="#text__hr">Horizontal rules</a></li>
                         <li><a href="#text__tables">Tabular data</a></li>
-                        <li><a href="#text__syntax">Syntax</a></li>
+                        <li><a href="#text__code">Code</a></li>
                         <li><a href="#text__inline">Inline elements</a></li>
                     </ul>
                 </li>
@@ -33,18 +33,20 @@
                         <li><a href="#embedded__audio">Audio</a></li>
                         <li><a href="#embedded__video">Video</a></li>
                         <li><a href="#embedded__canvas">Canvas</a></li>
-                        <li><a href="#embedded__progress">Progress bars</a></li>
+                        <li><a href="#embedded__meter">Meter</a></li>
+                        <li><a href="#embedded__progress">Progress</a></li>
                         <li><a href="#embedded__svg">Inline SVG</a></li>
-                        <li><a href="#embedded__iframes">IFrames</a></li>
+                        <li><a href="#embedded__iframe">IFrames</a></li>
                     </ul>
                 </li>
                 <li>
                     <a href="#forms">Form elements</a>
                     <ul>
-                        <li><a href="#forms__text">Text fields</a></li>
+                        <li><a href="#forms__input">Input fields</a></li>
                         <li><a href="#forms__select">Select menus</a></li>
                         <li><a href="#forms__checkbox">Checkboxes</a></li>
                         <li><a href="#forms__radio">Radio buttons</a></li>
+                        <li><a href="#forms__textareas">Textareas</a></li>
                         <li><a href="#forms__html5">HTML5 inputs</a></li>
                         <li><a href="#forms__action">Action buttons</a></li>
                     </ul>
@@ -195,8 +197,8 @@
                     <footer><p><a href="#top">[Top]</a></p></footer>
                 </article>
 
-                <article id="text__syntax">
-                    <header><h1>Syntax</h1></header>
+                <article id="text__code">
+                    <header><h1>Code</h1></header>
 
                     <div>
                         <p><strong>Keyboard input:</strong> <kbd>Cmd</kbd></p>
@@ -299,8 +301,14 @@ p q r s t u v w x y z { | } ~ </pre>
                     <footer><p><a href="#top">[Top]</a></p></footer>
                 </article>
 
+                <article id="embedded__meter">
+                    <header><h2>Meter</h2></header>
+                    <div><meter value="2" min="0" max="10">2 out of 10</meter></div>
+                    <footer><p><a href="#top">[Top]</a></p></footer>
+                </article>
+
                 <article id="embedded__progress">
-                    <header><h2>Progress bars</h2></header>
+                    <header><h2>Progress</h2></header>
                     <div><progress>progress</progress></div>
                     <footer><p><a href="#top">[Top]</a></p></footer>
                 </article>
@@ -311,8 +319,8 @@ p q r s t u v w x y z { | } ~ </pre>
                     <footer><p><a href="#top">[Top]</a></p></footer>
                 </article>
 
-                <article id="embedded__iframes">
-                    <header><h2>IFrames</h2></header>
+                <article id="embedded__iframe">
+                    <header><h2>IFrame</h2></header>
                     <div><iframe src="http://www.google.com" height="300"></iframe></div>
                     <footer><p><a href="#top">[Top]</a></p></footer>
                 </article>
@@ -322,11 +330,11 @@ p q r s t u v w x y z { | } ~ </pre>
                 <header><h1>Form elements</h1></header>
 
                 <form>
-                    <fieldset id="forms__text">
-                        <legend>Text fields</legend>
+                    <fieldset id="forms__input">
+                        <legend>Input fields</legend>
 
                         <p>
-                            <label for="input__text">Text Input <abbr title="Required">*</abbr></label>
+                            <label for="input__text">Text Input</label>
                             <input id="input__text" type="text" placeholder="Text Input">
                         </p>
                         <p>
@@ -350,12 +358,8 @@ p q r s t u v w x y z { | } ~ </pre>
                             <input id="input__search" type="search" placeholder="Enter Search Term">
                         </p>
                         <p>
-                            <label for="input__text2">Number Input <abbr title="Required">*</abbr></label>
+                            <label for="input__text2">Number Input</label>
                             <input id="input__text2" type="number" placeholder="Enter a Number">
-                        </p>
-                        <p>
-                            <label for="input__textarea">Textarea</label>
-                            <textarea id="input__textarea" rows="8" cols="48" placeholder="Enter your message here"></textarea>
                         </p>
                         <p>
                             <label for="input__text3" class="error">Error</label>
@@ -406,6 +410,17 @@ p q r s t u v w x y z { | } ~ </pre>
                             <li><label for="radio2"><input id="radio2" name="radio" type="radio" class="radio"> Option 2</label></li>
                             <li><label for="radio3"><input id="radio3" name="radio" type="radio" class="radio"> Option 3</label></li>
                         </ul>
+                    </fieldset>
+
+                    <p><a href="#top">[Top]</a></p>
+
+                    <fieldset id="forms__textareas">
+                        <legend>Textareas</legend>
+
+                        <p>
+                            <label for="textarea">Textarea</label>
+                            <textarea id="textarea" rows="8" cols="48" placeholder="Enter your message here"></textarea>
+                        </p>
                     </fieldset>
 
                     <p><a href="#top">[Top]</a></p>
