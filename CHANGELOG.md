@@ -1,3 +1,7 @@
+# 0.4.0 (August 17, 2015)
+
+- Add `<meter>` element (thanks @haroenv!). Reorganize a few existing elements.
+
 # 0.3.1 (August 17, 2015)
 
 - Change placeholder image dimensions to one that works properly (thanks @haroenv!).
