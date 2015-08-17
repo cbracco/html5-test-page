@@ -1,3 +1,7 @@
+# 0.3.0 (August 17, 2015)
+
+- Add phone number input field.
+
 # 0.2.2 (May 13, 2015)
 
 - Fix validation errors.
