@@ -1,6 +1,10 @@
+# 0.3.1 (August 17, 2015)
+
+- Change placeholder image dimensions to one that works properly (thanks @haroenv!).
+
 # 0.3.0 (August 17, 2015)
 
-- Add phone number input field.
+- Add phone number input field (thanks @johnpolacek!).
 
 # 0.2.2 (May 13, 2015)
 
