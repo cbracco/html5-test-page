@@ -1,3 +1,8 @@
+# 0.5.0 (December 13, 2015)
+
+- Update `<iframe>` source attribute to point to `index.html` (so meta).
+- Add viewport `<meta>` tag to `<head>` of `index.html`.
+
 # 0.4.0 (August 17, 2015)
 
 - Add `<meter>` element (thanks @haroenv!). Reorganize a few existing elements.
