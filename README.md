@@ -26,6 +26,6 @@ When submitting a pull request, **please checkout a new feature branch, and subm
 
 HTML Test Page is licensed under the MIT Open Source license. For more information, see the [LICENSE.md](https://github.com/cbracco/html5-test-page/blob/master/LICENSE.md) file in this repository.
 
-## Colophon
+## Credits
 
-Made by [@cbracco](http://cbracco.me).
+Made by [@cbracco](http://cbracco.me). This project is based on the [test file](https://github.com/necolas/normalize.css/blob/master/test.html) included in [@necolas](https://github.com/necolas/)’s [normalize.css](https://github.com/necolas/normalize.css/) project.
