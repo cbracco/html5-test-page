@@ -1,0 +1,24 @@
+{
+  "name": "html5-test-page",
+  "version": "0.6.0",
+  "description": "A page filled with common HTML elements to be used for testing purposes.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cbracco/html5-test-page.git"
+  },
+  "keywords": [
+    "HTML5",
+    "test",
+    "page"
+  ],
+  "author": "Chris Bracco",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cbracco/html5-test-page/issues"
+  },
+  "homepage": "https://github.com/cbracco/html5-test-page#readme"
+}
