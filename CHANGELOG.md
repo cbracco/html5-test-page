@@ -1,3 +1,8 @@
+# 0.6.0 (February 1, 2015)
+
+- Update indentation and whitespace.
+- Add to npm.
+
 # 0.5.0 (December 13, 2015)
 
 - Update `<iframe>` source attribute to point to `index.html` (so meta).
