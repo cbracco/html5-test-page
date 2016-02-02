@@ -1,3 +1,9 @@
+# 0.6.1 (February 2, 2015)
+
+- Simplify the instructions in `CHANGELOG.md`.
+- Rename `LICENSE.md` to `LICENSE`.
+- Update `README.md` content.
+
 # 0.6.0 (February 1, 2015)
 
 - Update indentation and whitespace.
