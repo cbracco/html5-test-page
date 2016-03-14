@@ -1,10 +1,15 @@
-# 0.6.1 (February 2, 2015)
+# 0.6.2 (March 14, 2016)
+
+- Minor formatting change (thanks @gilluminate!).
+- Fix incorrect years in `CHANGELOG.md`.
+
+# 0.6.1 (February 2, 2016)
 
 - Simplify the instructions in `CHANGELOG.md`.
 - Rename `LICENSE.md` to `LICENSE`.
 - Update `README.md` content.
 
-# 0.6.0 (February 1, 2015)
+# 0.6.0 (February 1, 2016)
 
 - Update indentation and whitespace.
 - Add to npm.
