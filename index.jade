@@ -1,0 +1,499 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    title HTML5 Test Page
+  body
+    #top.page(role='document')
+      header(role='banner')
+        h1 HTML5 Test Page
+        p
+          | This is a test page filled with common HTML elements to be used to provide visual feedback whilst building CSS systems and frameworks.
+      nav(role='navigation')
+        ul
+          li
+            a(href='#text') Text
+            ul
+              li
+                a(href='#text__headings') Headings
+              li
+                a(href='#text__paragraphs') Paragraphs
+              li
+                a(href='#text__blockquotes') Blockquotes
+              li
+                a(href='#text__lists') Lists
+              li
+                a(href='#text__hr') Horizontal rules
+              li
+                a(href='#text__tables') Tabular data
+              li
+                a(href='#text__code') Code
+              li
+                a(href='#text__inline') Inline elements
+          li
+            a(href='#embedded') Embedded content
+            ul
+              li
+                a(href='#embedded__images') Images
+              li
+                a(href='#embedded__audio') Audio
+              li
+                a(href='#embedded__video') Video
+              li
+                a(href='#embedded__canvas') Canvas
+              li
+                a(href='#embedded__meter') Meter
+              li
+                a(href='#embedded__progress') Progress
+              li
+                a(href='#embedded__svg') Inline SVG
+              li
+                a(href='#embedded__iframe') IFrames
+          li
+            a(href='#forms') Form elements
+            ul
+              li
+                a(href='#forms__input') Input fields
+              li
+                a(href='#forms__select') Select menus
+              li
+                a(href='#forms__checkbox') Checkboxes
+              li
+                a(href='#forms__radio') Radio buttons
+              li
+                a(href='#forms__textareas') Textareas
+              li
+                a(href='#forms__html5') HTML5 inputs
+              li
+                a(href='#forms__action') Action buttons
+      main(role='main')
+        section#text
+          header
+            h1 Text
+          article#text__headings
+            header
+              h1 Headings
+            div
+              h1 Heading 1
+              h2 Heading 2
+              h3 Heading 3
+              h4 Heading 4
+              h5 Heading 5
+              h6 Heading 6
+            footer
+              p
+                a(href='#top') [Top]
+          article#text__paragraphs
+            header
+              h1 Paragraphs
+            div
+              p
+                | A paragraph (from the Greek paragraphos, “to write beside” or “written beside”) is a self-contained unit of a discourse in writing dealing with a particular point or idea. A paragraph consists of one or more sentences. Though not required by the syntax of any language, paragraphs are usually an expected part of formal writing, used to organize longer prose.
+            footer
+              p
+                a(href='#top') [Top]
+          article#text__blockquotes
+            header
+              h1 Blockquotes
+            div
+              blockquote
+                p
+                  | A block quotation (also known as a long quotation or extract) is a quotation in a written document, that is set off from the main text as a paragraph, or block of text.
+                p
+                  | It is typically distinguished visually using indentation and a different typeface or smaller size quotation. It may or may not include a citation, usually placed at the bottom.
+                cite
+                  a(href='#!') Said no one, ever.
+            footer
+              p
+                a(href='#top') [Top]
+          article#text__lists
+            header
+              h1 Lists
+            div
+              h3 Definition list
+              dl
+                dt Definition List Title
+                dd This is a definition list division.
+              h3 Ordered List
+              ol
+                li List Item 1
+                li List Item 2
+                li List Item 3
+              h3 Unordered List
+              ul
+                li List Item 1
+                li List Item 2
+                li List Item 3
+            footer
+              p
+                a(href='#top') [Top]
+          article#text__hr
+            header
+              h1 Horizontal rules
+            div
+              hr
+            footer
+              p
+                a(href='#top') [Top]
+          article#text__tables
+            header
+              h1 Tabular data
+            table
+              caption Table Caption
+              thead
+                tr
+                  th Table Heading 1
+                  th Table Heading 2
+                  th Table Heading 3
+                  th Table Heading 4
+                  th Table Heading 5
+              tfoot
+                tr
+                  th Table Footer 1
+                  th Table Footer 2
+                  th Table Footer 3
+                  th Table Footer 4
+                  th Table Footer 5
+              tbody
+                tr
+                  td Table Cell 1
+                  td Table Cell 2
+                  td Table Cell 3
+                  td Table Cell 4
+                  td Table Cell 5
+                tr
+                  td Table Cell 1
+                  td Table Cell 2
+                  td Table Cell 3
+                  td Table Cell 4
+                  td Table Cell 5
+                tr
+                  td Table Cell 1
+                  td Table Cell 2
+                  td Table Cell 3
+                  td Table Cell 4
+                  td Table Cell 5
+                tr
+                  td Table Cell 1
+                  td Table Cell 2
+                  td Table Cell 3
+                  td Table Cell 4
+                  td Table Cell 5
+            footer
+              p
+                a(href='#top') [Top]
+          article#text__code
+            header
+              h1 Code
+            div
+              p
+                strong Keyboard input:
+                kbd Cmd
+              p
+                strong Inline code:
+                code <div>code</div>
+              p
+                strong Sample output:
+                samp This is sample output from a computer program.
+              h2 Pre-formatted text
+              pre.
+                \nP R E F O R M A T T E D T E X T
+                  ! " # $ % & ' ( ) * + , - . /
+                  0 1 2 3 4 5 6 7 8 9 : ; < = > ?
+                  @ A B C D E F G H I J K L M N O
+                  P Q R S T U V W X Y Z [ \ ] ^ _
+                  ` a b c d e f g h i j k l m n o
+                  p q r s t u v w x y z { | } ~                 
+            footer
+              p
+                a(href='#top') [Top]
+          article#text__inline
+            header
+              h1 Inline elements
+            div
+              p
+                a(href='#!') This is a text link
+                | .
+              p
+                strong Strong is used to indicate strong importance.
+              p
+                em This text has added emphasis.
+              p
+                | The 
+                b b element
+                |  is stylistically different text from normal text, without any special importance.
+              p
+                | The 
+                i i element
+                |  is text that is offset from the normal text.
+              p
+                | The 
+                u u element
+                |  is text with an unarticulated, though explicitly rendered, non-textual annotation.
+              p
+                del This text is deleted
+                |  and 
+                ins This text is inserted
+                | .
+              p
+                s This text has a strikethrough
+                | .
+              p
+                | Superscript
+                sup ®
+                | .
+              p
+                | Subscript for things like H
+                sub 2
+                | O.
+              p
+                small This small text is small for for fine print, etc.
+              p
+                | Abbreviation: 
+                abbr(title='HyperText Markup Language') HTML
+              p
+                q(cite='https://developer.mozilla.org/en-US/docs/HTML/Element/q') This text is a short inline quotation.
+              p
+                cite This is a citation.
+              p
+                | The 
+                dfn dfn element
+                |  indicates a definition.
+              p
+                | The 
+                mark mark element
+                |  indicates a highlight.
+              p
+                | The 
+                var variable element
+                | , such as 
+                var x
+                |  = 
+                var y
+                | .
+              p
+                | The time element: 
+                time(datetime='2013-04-06T12:32+00:00') 2 weeks ago
+            footer
+              p
+                a(href='#top') [Top]
+        section#embedded
+          header
+            h1 Embedded content
+          article#embedded__images
+            header
+              h2 Images
+            div
+              h3
+                | No 
+                code <figure>
+                |  element
+              p
+                img(src='http://placekitten.com/480/480', alt='Image alt text')
+              h3
+                | Wrapped in a 
+                code <figure>
+                |  element, no 
+                code <figcaption>
+              figure
+                img(src='http://placekitten.com/420/420', alt='Image alt text')
+              h3
+                | Wrapped in a 
+                code <figure>
+                |  element, with a 
+                code <figcaption>
+              figure
+                img(src='http://placekitten.com/420/420', alt='Image alt text')
+                figcaption Here is a caption for this image.
+            footer
+              p
+                a(href='#top') [Top]
+          article#embedded__audio
+            header
+              h2 Audio
+            div
+              audio(controls='') audio
+            footer
+              p
+                a(href='#top') [Top]
+          article#embedded__video
+            header
+              h2 Video
+            div
+              video(controls='') video
+            footer
+              p
+                a(href='#top') [Top]
+          article#embedded__canvas
+            header
+              h2 Canvas
+            div
+              canvas canvas
+            footer
+              p
+                a(href='#top') [Top]
+          article#embedded__meter
+            header
+              h2 Meter
+            div
+              meter(value='2', min='0', max='10') 2 out of 10
+            footer
+              p
+                a(href='#top') [Top]
+          article#embedded__progress
+            header
+              h2 Progress
+            div
+              progress progress
+            footer
+              p
+                a(href='#top') [Top]
+          article#embedded__svg
+            header
+              h2 Inline SVG
+            div
+              svg(width='100px', height='100px')
+                circle(cx='100', cy='100', r='100', fill='#1fa3ec')
+            footer
+              p
+                a(href='#top') [Top]
+          article#embedded__iframe
+            header
+              h2 IFrame
+            div
+              iframe(src='index.html', height='300')
+            footer
+              p
+                a(href='#top') [Top]
+        section#forms
+          header
+            h1 Form elements
+          form
+            fieldset#forms__input
+              legend Input fields
+              p
+                label(for='input__text') Text Input
+                input#input__text(type='text', placeholder='Text Input')
+              p
+                label(for='input__password') Password
+                input#input__password(type='password', placeholder='Type your Password')
+              p
+                label(for='input__webaddress') Web Address
+                input#input__webaddress(type='url', placeholder='http://yoursite.com')
+              p
+                label(for='input__emailaddress') Email Address
+                input#input__emailaddress(type='email', placeholder='name@email.com')
+              p
+                label(for='input__phone') Phone Number
+                input#input__phone(type='tel', placeholder='(999) 999-9999')
+              p
+                label(for='input__search') Search
+                input#input__search(type='search', placeholder='Enter Search Term')
+              p
+                label(for='input__text2') Number Input
+                input#input__text2(type='number', placeholder='Enter a Number')
+              p
+                label.error(for='input__text3') Error
+                input#input__text3.is-error(type='text', placeholder='Text Input')
+              p
+                label.valid(for='input__text4') Valid
+                input#input__text4.is-valid(type='text', placeholder='Text Input')
+            p
+              a(href='#top') [Top]
+            fieldset#forms__select
+              legend Select menus
+              p
+                label(for='select') Select
+                select#select
+                  optgroup(label='Option Group')
+                    option Option One
+                    option Option Two
+                    option Option Three
+            p
+              a(href='#top') [Top]
+            fieldset#forms__checkbox
+              legend Checkboxes
+              ul.list.list--bare
+                li
+                  label(for='checkbox1')
+                    input#checkbox1(name='checkbox', type='checkbox', checked='checked')
+                    |  Choice A
+                li
+                  label(for='checkbox2')
+                    input#checkbox2(name='checkbox', type='checkbox')
+                    |  Choice B
+                li
+                  label(for='checkbox3')
+                    input#checkbox3(name='checkbox', type='checkbox')
+                    |  Choice C
+            p
+              a(href='#top') [Top]
+            fieldset#forms__radio
+              legend Radio buttons
+              ul.list.list--bare
+                li
+                  label(for='radio1')
+                    input#radio1.radio(name='radio', type='radio', checked='checked')
+                    |  Option 1
+                li
+                  label(for='radio2')
+                    input#radio2.radio(name='radio', type='radio')
+                    |  Option 2
+                li
+                  label(for='radio3')
+                    input#radio3.radio(name='radio', type='radio')
+                    |  Option 3
+            p
+              a(href='#top') [Top]
+            fieldset#forms__textareas
+              legend Textareas
+              p
+                label(for='textarea') Textarea
+                textarea#textarea(rows='8', cols='48', placeholder='Enter your message here')
+            p
+              a(href='#top') [Top]
+            fieldset#forms__html5
+              legend HTML5 inputs
+              p
+                label(for='ic') Color input
+                input#ic(type='color', value='#000000')
+              p
+                label(for='in') Number input
+                input#in(type='number', min='0', max='10', value='5')
+              p
+                label(for='ir') Range input
+                input#ir(type='range', value='10')
+              p
+                label(for='idd') Date input
+                input#idd(type='date', value='1970-01-01')
+              p
+                label(for='idm') Month input
+                input#idm(type='month', value='1970-01')
+              p
+                label(for='idw') Week input
+                input#idw(type='week', value='1970-W01')
+              p
+                label(for='idt') Datetime input
+                input#idt(type='datetime', value='1970-01-01T00:00:00Z')
+              p
+                label(for='idtl') Datetime-local input
+                input#idtl(type='datetime-local', value='1970-01-01T00:00')
+            p
+              a(href='#top') [Top]
+            fieldset#forms__action
+              legend Action buttons
+              p
+                input(type='submit', value='Input')
+                button(type='submit') Button
+                input(type='reset', value='Reset')
+                input(type='submit', value='Disabled', disabled='')
+            p
+              a(href='#top') [Top]
+      footer(role='contentinfo')
+        p
+          | Made by 
+          a(href='http://twitter.com/cbracco') @cbracco
+          | . Code on 
+          a(href='http://github.com/cbracco/html5-test-page') GitHub
+          | .
