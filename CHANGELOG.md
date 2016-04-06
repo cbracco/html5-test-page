@@ -1,3 +1,7 @@
+# 0.7.1 (April 5, 2016)
+
+- Add missing form button types (thanks @gnowland!).
+
 # 0.6.2 (March 14, 2016)
 
 - Minor formatting change (thanks @gilluminate!).
