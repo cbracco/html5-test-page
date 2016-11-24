@@ -22,6 +22,8 @@
               <li><a href="#text__lists">Lists</a></li>
               <li><a href="#text__hr">Horizontal rules</a></li>
               <li><a href="#text__tables">Tabular data</a></li>
+              <li><a href="#text__address">Address</a></li>
+              <li><a href="#text__details">The details element</a></li>
               <li><a href="#text__code">Code</a></li>
               <li><a href="#text__inline">Inline elements</a></li>
             </ul>
@@ -37,6 +39,8 @@
               <li><a href="#embedded__progress">Progress</a></li>
               <li><a href="#embedded__svg">Inline SVG</a></li>
               <li><a href="#embedded__iframe">IFrames</a></li>
+              <li><a href="#embedded__embed">Embed</a></li>
+              <li><a href="#embedded__object">Object</a></li>
             </ul>
           </li>
           <li>
@@ -173,6 +177,26 @@
             </table>
             <footer><p><a href="#top">[Top]</a></p></footer>
           </article>
+          <article id="text__address">
+						<header><h1>Address</h1></header>
+						<address>
+							Written by <a href="mailto:webmaster@example.com">Jon Doe</a>.<br>
+							Visit us at:<br>
+							Example.com<br>
+							Box 564, Disneyland<br>
+							USA
+						</address>
+						<footer><p><a href="#top">[Top]</a></p></footer>
+					</article>
+					<article id="text__details">
+						<header><h1>The details element</h1></header>
+						<details>
+							<summary>Details summary</summary>
+							<p>More details come here.<br>
+							Another sentence.</p>
+						</details>
+						<footer><p><a href="#top">[Top]</a></p></footer>
+					</article>
           <article id="text__code">
             <header><h1>Code</h1></header>
             <div>
@@ -268,6 +292,16 @@
             <div><iframe src="index.html" height="300"></iframe></div>
             <footer><p><a href="#top">[Top]</a></p></footer>
           </article>
+          <article id="embedded__embed">
+            <header><h2>Embed</h2></header>
+            <div><embed></div>
+            <footer><p><a href="#top">[Top]</a></p></footer>
+          </article>
+          <article id="embedded__object">
+            <header><h2>Object</h2></header>
+            <div><object></object></div>
+            <footer><p><a href="#top">[Top]</a></p></footer>
+          </article>
         </section>
         <section id="forms">
           <header><h1>Form elements</h1></header>
@@ -309,6 +343,10 @@
               <p>
                 <label for="input__text4" class="valid">Valid</label>
                 <input id="input__text4" class="is-valid" type="text" placeholder="Text Input">
+              </p>
+              <p>
+                <label for="input__file" class="button">File Input</label>
+                <input id="input__file" type="file">
               </p>
             </fieldset>
             <p><a href="#top">[Top]</a></p>
@@ -386,6 +424,19 @@
                 <label for="idtl">Datetime-local input</label>
                 <input type="datetime-local" id="idtl" value="1970-01-01T00:00">
               </p>
+              <p>
+								<label for="idatal">Datalist</label>
+								<input type="text" id="idatal" list="example-list">
+								<datalist id="example-list">
+									<option value="Example #1">
+									<option value="Example #2">
+									<option value="Example #3">
+								</datalist>
+							</p>
+							<p>
+								<label for="ikeygen">Keygen</label>
+								<keygen id="ikeygen">
+							</p>
             </fieldset>
             <p><a href="#top">[Top]</a></p>
             <fieldset id="forms__action">
