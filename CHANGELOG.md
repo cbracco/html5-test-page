@@ -1,3 +1,7 @@
+# 0.8.0 (March 19, 2018)
+
+- Add test for HTML comments (thanks @ep00ch!).
+
 # 0.7.1 (April 5, 2016)
 
 - Add missing form button types (thanks @gnowland!).
