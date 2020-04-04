@@ -221,10 +221,10 @@
               <p>There is comment here: <!--This comment should not be displayed--></p>
               <p>There is a comment spanning multiple tags and lines below here.</p>
               <!--<p><a href="#!">This is a text link. But it should not be displayed in a comment</a>.</p>
-              <p><strong>Strong is used to indicate strong importance. But, it should not be displayed in a comment</strong></p>
-              <p><em>This text has added emphasis. But, it should not be displayed in a comment</em></p>-->
+              <p><strong>Strong is used to indicate strong importance. But, it should not be displayed in a comment</strong></p>
+              <p><em>This text has added emphasis. But, it should not be displayed in a comment</em></p>-->
             </div>
-            <footer><p><a href="#top">[Top]</a></p></footer>
+            <footer><p><a href="#top">[Top]</a></p></footer>
           </article>
         </section>
         <section id="embedded">
@@ -232,6 +232,13 @@
           <article id="embedded__images">
             <header><h2>Images</h2></header>
             <div>
+            <h3>The picture Element</h3>
+
+<picture>
+  <source media="(min-width: 650px)" srcset="img_food.jpg">
+  <source media="(min-width: 465px)" srcset="img_car.jpg">
+  <img src="img_girl.jpg" style="width:auto;">
+</picture>
               <h3>No <code>&lt;figure&gt;</code> element</h3>
               <p><img src="http://placekitten.com/480/480" alt="Image alt text"></p>
               <h3>Wrapped in a <code>&lt;figure&gt;</code> element, no <code>&lt;figcaption&gt;</code></h3>
