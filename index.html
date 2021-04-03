@@ -323,14 +323,22 @@
           <article id="embedded__images">
             <header><h2>Images</h2></header>
             <div>
-              <h3>No <code>&lt;figure&gt;</code> element</h3>
-              <p><img src="https://placekitten.com/480/480" alt="Image alt text"></p>
-              <h3>Wrapped in a <code>&lt;figure&gt;</code> element, no <code>&lt;figcaption&gt;</code></h3>
-              <figure><img src="https://placekitten.com/420/420" alt="Image alt text"></figure>
-              <h3>Wrapped in a <code>&lt;figure&gt;</code> element, with a <code>&lt;figcaption&gt;</code></h3>
+              <h3>Plain <code>&lt;img&gt;</code> element</h3>
+              <p><img src="https://placekitten.com/480/480" alt="Photo of a kitten"></p>
+              <h3><code>&lt;figure&gt;</code> element with <code>&lt;img&gt;</code> element</h3>
+              <figure><img src="https://placekitten.com/420/420" alt="Photo of a kitten"></figure>
+              <h3><code>&lt;figure&gt;</code> element with <code>&lt;img&gt;</code> and <code>&lt;figcaption&gt;</code> elements</h3>
               <figure>
-                <img src="https://placekitten.com/420/420" alt="Image alt text">
+                <img src="https://placekitten.com/420/420" alt="Photo of a kitten">
                 <figcaption>Here is a caption for this image.</figcaption>
+              </figure>
+              <h3><code>&lt;figure&gt;</code> element with a <code>&lt;picture&gt;</code> element</h3>
+              <figure>
+                <picture>
+                  <source srcset="https://placekitten.com/800/800"
+                    media="(min-width: 800px)">
+                  <img src="https://placekitten.com/420/420" alt="Photo of a kitten" />
+                </picture>
               </figure>
             </div>
             <footer><p><a href="#top">[Top]</a></p></footer>

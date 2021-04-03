@@ -1,3 +1,7 @@
+# 0.9.5 (April 3, 2021)
+
+- Add <picture> element (thanks @AurelioDeRosa!).
+
 # 0.9.4 (April 3, 2021)
 
 - Remove unnecessary role attributes. Update headings (thanks @gipsi!).
