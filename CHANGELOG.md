@@ -1,3 +1,7 @@
+# 0.9.4 (April 3, 2021)
+
+- Remove unnecessary role attributes. Update headings (thanks @gipsi!).
+
 # 0.9.3 (April 3, 2021)
 
 - Add multiple <select> (thanks @racztiborzoltan!).
