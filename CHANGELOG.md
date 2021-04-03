@@ -1,3 +1,7 @@
+# 0.9.6 (April 3, 2021)
+
+- Remove classes and valid/invalid inputs.
+
 # 0.9.5 (April 3, 2021)
 
 - Add <picture> element (thanks @AurelioDeRosa!).
