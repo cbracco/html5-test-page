@@ -18,8 +18,10 @@
             <ul>
               <li><a href="#text__headings">Headings</a></li>
               <li><a href="#text__paragraphs">Paragraphs</a></li>
-              <li><a href="#text__blockquotes">Blockquotes</a></li>
               <li><a href="#text__lists">Lists</a></li>
+              <li><a href="#text__blockquotes">Blockquotes</a></li>
+              <li><a href="#text__details">Details / Summary</a></li>
+              <li><a href="#text__address">Address</a></li>
               <li><a href="#text__hr">Horizontal rules</a></li>
               <li><a href="#text__tables">Tabular data</a></li>
               <li><a href="#text__code">Code</a></li>
@@ -38,6 +40,8 @@
               <li><a href="#embedded__progress">Progress</a></li>
               <li><a href="#embedded__svg">Inline SVG</a></li>
               <li><a href="#embedded__iframe">IFrames</a></li>
+              <li><a href="#embedded__embed">Embed</a></li>
+              <li><a href="#embedded__object">Object</a></li>
             </ul>
           </li>
           <li>
@@ -78,17 +82,6 @@
             </div>
             <footer><p><a href="#top">[Top]</a></p></footer>
           </article>
-          <article id="text__blockquotes">
-            <header><h1>Blockquotes</h1></header>
-            <div>
-              <blockquote>
-                <p>A block quotation (also known as a long quotation or extract) is a quotation in a written document, that is set off from the main text as a paragraph, or block of text.</p>
-                <p>It is typically distinguished visually using indentation and a different typeface or smaller size quotation. It may or may not include a citation, usually placed at the bottom.</p>
-                <cite><a href="#!">Said no one, ever.</a></cite>
-              </blockquote>
-            </div>
-            <footer><p><a href="#top">[Top]</a></p></footer>
-          </article>
           <article id="text__lists">
             <header><h1>Lists</h1></header>
             <div>
@@ -110,6 +103,36 @@
                 <li>List Item 3</li>
               </ul>
             </div>
+            <footer><p><a href="#top">[Top]</a></p></footer>
+          </article>
+          <article id="text__blockquotes">
+            <header><h1>Blockquotes</h1></header>
+            <div>
+              <blockquote>
+                <p>A block quotation (also known as a long quotation or extract) is a quotation in a written document, that is set off from the main text as a paragraph, or block of text.</p>
+                <p>It is typically distinguished visually using indentation and a different typeface or smaller size quotation. It may or may not include a citation, usually placed at the bottom.</p>
+                <cite><a href="#!">Said no one, ever.</a></cite>
+              </blockquote>
+            </div>
+            <footer><p><a href="#top">[Top]</a></p></footer>
+          </article>
+          <article id="text__details">
+            <header><h1>Details / Summary</h1></header>
+            <details>
+              <summary>Expand for details</summary>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, odio! Odio natus ullam ad quaerat, eaque necessitatibus, aliquid distinctio similique voluptatibus dicta consequuntur animi. Quaerat facilis quidem unde eos! Ipsa.</p>
+            </details>
+            <footer><p><a href="#top">[Top]</a></p></footer>
+          </article>
+          <article id="text__address">
+            <header><h1>Address</h1></header>
+            <address>
+              Written by <a href="mailto:webmaster@example.com">Jon Doe</a>.<br>
+              Visit us at:<br>
+              Example.com<br>
+              Box 564, Disneyland<br>
+              USA
+            </address>
             <footer><p><a href="#top">[Top]</a></p></footer>
           </article>
           <article id="text__hr">
@@ -279,6 +302,16 @@
             <div><iframe src="index.html" height="300"></iframe></div>
             <footer><p><a href="#top">[Top]</a></p></footer>
           </article>
+          <article id="embedded__embed">
+            <header><h2>Embed</h2></header>
+            <div><embed src="index.html" height="300"></div>
+            <footer><p><a href="#top">[Top]</a></p></footer>
+          </article>
+          <article id="embedded__object">
+            <header><h2>Object</h2></header>
+            <div><object data="index.html" height="300"></object></div>
+            <footer><p><a href="#top">[Top]</a></p></footer>
+          </article>
         </section>
         <section id="forms">
           <header><h1>Form elements</h1></header>
@@ -320,6 +353,10 @@
               <p>
                 <label for="input__text4" class="valid">Valid</label>
                 <input id="input__text4" class="is-valid" type="text" placeholder="Text Input">
+              </p>
+              <p>
+                <label for="input__file" class="button">File Input</label>
+                <input id="input__file" type="file">
               </p>
             </fieldset>
             <p><a href="#top">[Top]</a></p>
@@ -396,6 +433,15 @@
               <p>
                 <label for="idtl">Datetime-local input</label>
                 <input type="datetime-local" id="idtl" value="1970-01-01T00:00">
+              </p>
+              <p>
+                <label for="idl">Datalist</label>
+                <input type="text" id="idl" list="example-list">
+                <datalist id="example-list">
+                  <option value="Example #1">
+                  <option value="Example #2">
+                  <option value="Example #3">
+                </datalist>
               </p>
             </fieldset>
             <p><a href="#top">[Top]</a></p>
