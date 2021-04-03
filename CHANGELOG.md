@@ -1,3 +1,7 @@
+# 0.9.2 (April 3, 2021)
+
+- Add nested lists (thanks @charul97!).
+
 # 0.9.1 (April 3, 2021)
 
 - Add background images (thanks @97arushisharma!).
