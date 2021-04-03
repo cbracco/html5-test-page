@@ -1,3 +1,7 @@
+# 0.9.3 (April 3, 2021)
+
+- Add multiple <select> (thanks @racztiborzoltan!).
+
 # 0.9.2 (April 3, 2021)
 
 - Add nested lists (thanks @charul97!).
