@@ -1,6 +1,6 @@
 {
   "name": "html5-test-page",
-  "version": "0.9.4",
+  "version": "0.9.5",
   "description": "A page filled with common HTML elements to be used for testing purposes.",
   "main": "index.html",
   "scripts": {
