@@ -1,4 +1,8 @@
-# 0.9.0 (March 19, 2018)
+# 0.9.1 (April 3, 2021)
+
+- Add background images (thanks @97arushisharma!).
+
+# 0.9.0 (April 3, 2021)
 
 - Add <details>, <address>, <object>, <embed>, <datalist> (thanks @jKratzik!).
 
