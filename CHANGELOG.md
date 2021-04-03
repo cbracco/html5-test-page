@@ -1,3 +1,7 @@
+# 0.9.0 (March 19, 2018)
+
+- Add <details>, <address>, <object>, <embed>, <datalist> (thanks @jKratzik!).
+
 # 0.8.0 (March 19, 2018)
 
 - Add test for HTML comments (thanks @ep00ch!).
