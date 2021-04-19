@@ -1,3 +1,7 @@
+# 0.9.7 (April 3, 2021)
+
+- Self-close option tags (thanks @ConnorJamesLow!).
+
 # 0.9.6 (April 3, 2021)
 
 - Remove classes and valid/invalid inputs.
