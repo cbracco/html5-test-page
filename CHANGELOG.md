@@ -1,3 +1,35 @@
+# 0.9.7 (April 3, 2021)
+
+- Self-close option tags (thanks @ConnorJamesLow!).
+
+# 0.9.6 (April 3, 2021)
+
+- Remove classes and valid/invalid inputs.
+
+# 0.9.5 (April 3, 2021)
+
+- Add <picture> element (thanks @AurelioDeRosa!).
+
+# 0.9.4 (April 3, 2021)
+
+- Remove unnecessary role attributes. Update headings (thanks @gipsi!).
+
+# 0.9.3 (April 3, 2021)
+
+- Add multiple <select> (thanks @racztiborzoltan!).
+
+# 0.9.2 (April 3, 2021)
+
+- Add nested lists (thanks @charul97!).
+
+# 0.9.1 (April 3, 2021)
+
+- Add background images (thanks @97arushisharma!).
+
+# 0.9.0 (April 3, 2021)
+
+- Add <details>, <address>, <object>, <embed>, <datalist> (thanks @jKratzik!).
+
 # 0.8.0 (March 19, 2018)
 
 - Add test for HTML comments (thanks @ep00ch!).

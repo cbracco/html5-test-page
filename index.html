@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -6,20 +6,22 @@
     <title>HTML5 Test Page</title>
   </head>
   <body>
-    <div id="top" class="page" role="document">
-      <header role="banner">
+    <div id="top" role="document">
+      <header>
         <h1>HTML5 Test Page</h1>
         <p>This is a test page filled with common HTML elements to be used to provide visual feedback whilst building CSS systems and frameworks.</p>
       </header>
-      <nav role="navigation">
+      <nav>
         <ul>
           <li>
             <a href="#text">Text</a>
             <ul>
               <li><a href="#text__headings">Headings</a></li>
               <li><a href="#text__paragraphs">Paragraphs</a></li>
-              <li><a href="#text__blockquotes">Blockquotes</a></li>
               <li><a href="#text__lists">Lists</a></li>
+              <li><a href="#text__blockquotes">Blockquotes</a></li>
+              <li><a href="#text__details">Details / Summary</a></li>
+              <li><a href="#text__address">Address</a></li>
               <li><a href="#text__hr">Horizontal rules</a></li>
               <li><a href="#text__tables">Tabular data</a></li>
               <li><a href="#text__code">Code</a></li>
@@ -31,6 +33,7 @@
             <a href="#embedded">Embedded content</a>
             <ul>
               <li><a href="#embedded__images">Images</a></li>
+              <li><a href="#embedded__bgimages">Background images</a></li>
               <li><a href="#embedded__audio">Audio</a></li>
               <li><a href="#embedded__video">Video</a></li>
               <li><a href="#embedded__canvas">Canvas</a></li>
@@ -38,6 +41,8 @@
               <li><a href="#embedded__progress">Progress</a></li>
               <li><a href="#embedded__svg">Inline SVG</a></li>
               <li><a href="#embedded__iframe">IFrames</a></li>
+              <li><a href="#embedded__embed">Embed</a></li>
+              <li><a href="#embedded__object">Object</a></li>
             </ul>
           </li>
           <li>
@@ -54,12 +59,12 @@
           </li>
         </ul>
       </nav>
-      <main role="main">
+      <main>
         <section id="text">
           <header><h1>Text</h1></header>
           <article id="text__headings">
             <header>
-              <h1>Headings</h1>
+              <h2>Headings</h2>
             </header>
             <div>
               <h1>Heading 1</h1>
@@ -72,9 +77,99 @@
             <footer><p><a href="#top">[Top]</a></p></footer>
           </article>
           <article id="text__paragraphs">
-            <header><h1>Paragraphs</h1></header>
+            <header><h2>Paragraphs</h2></header>
             <div>
               <p>A paragraph (from the Greek paragraphos, “to write beside” or “written beside”) is a self-contained unit of a discourse in writing dealing with a particular point or idea. A paragraph consists of one or more sentences. Though not required by the syntax of any language, paragraphs are usually an expected part of formal writing, used to organize longer prose.</p>
+            </div>
+            <footer><p><a href="#top">[Top]</a></p></footer>
+          </article>
+          <article id="text__blockquotes">
+            <header><h2>Blockquotes</h2></header>
+            <div>
+              <blockquote>
+                <p>A block quotation (also known as a long quotation or extract) is a quotation in a written document, that is set off from the main text as a paragraph, or block of text.</p>
+                <p>It is typically distinguished visually using indentation and a different typeface or smaller size quotation. It may or may not include a citation, usually placed at the bottom.</p>
+                <cite><a href="#!">Said no one, ever.</a></cite>
+              </blockquote>
+            </div>
+            <footer><p><a href="#top">[Top]</a></p></footer>
+          </article>
+          <article id="text__lists">
+            <header><h2>Lists</h2></header>
+            <div>
+              <h3>Definition list</h3>
+              <dl>
+                <dt>Definition List Title</dt>
+                <dd>This is a definition list division.</dd>
+              </dl>
+              <h3>Ordered List</h3>
+              <ol type="1">
+                <li>List Item 1</li>
+                <li>
+                  List Item 2
+                  <ol type="A">
+                    <li>List Item 1</li>
+                    <li>
+                      List Item 2
+                      <ol type="a">
+                        <li>List Item 1</li>
+                        <li>
+                          List Item 2
+                          <ol type="I">
+                            <li>List Item 1</li>
+                            <li>
+                              List Item 2
+                              <ol type="i">
+                                <li>List Item 1</li>
+                                <li>List Item 2</li>
+                                <li>List Item 3</li>
+                              </ol>
+                            </li>
+                            <li>List Item 3</li>
+                          </ol>
+                        </li>
+                        <li>List Item 3</li>
+                      </ol>
+                    </li>
+                    <li>List Item 3</li>
+                  </ol>
+                </li>
+                <li>List Item 3</li>
+              </ol>
+              <h3>Unordered List</h3>
+              <ul>
+                <li>List Item 1</li>
+                <li>
+                  List Item 2
+                  <ul>
+                    <li>List Item 1</li>
+                    <li>
+                      List Item 2
+                      <ul>
+                        <li>List Item 1</li>
+                        <li>
+                          List Item 2
+                          <ul>
+                            <li>List Item 1</li>
+                            <li>
+                              List Item 2
+                              <ul>
+                                <li>List Item 1</li>
+                                <li>List Item 2</li>
+                                <li>List Item 3</li>
+                              </ul>
+                            </li>
+                            <li>List Item 3</li>
+                          </ul>
+                        </li>
+                        <li>List Item 3</li>
+                      </ul>
+                    </li>
+                    <li>List Item 3</li>
+                  </ul>
+                </li>
+                <li>List Item 3</li>
+              </ul>
             </div>
             <footer><p><a href="#top">[Top]</a></p></footer>
           </article>
@@ -89,38 +184,34 @@
             </div>
             <footer><p><a href="#top">[Top]</a></p></footer>
           </article>
-          <article id="text__lists">
-            <header><h1>Lists</h1></header>
-            <div>
-              <h3>Definition list</h3>
-              <dl>
-                <dt>Definition List Title</dt>
-                <dd>This is a definition list division.</dd>
-              </dl>
-              <h3>Ordered List</h3>
-              <ol>
-                <li>List Item 1</li>
-                <li>List Item 2</li>
-                <li>List Item 3</li>
-              </ol>
-              <h3>Unordered List</h3>
-              <ul>
-                <li>List Item 1</li>
-                <li>List Item 2</li>
-                <li>List Item 3</li>
-              </ul>
-            </div>
+          <article id="text__details">
+            <header><h1>Details / Summary</h1></header>
+            <details>
+              <summary>Expand for details</summary>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, odio! Odio natus ullam ad quaerat, eaque necessitatibus, aliquid distinctio similique voluptatibus dicta consequuntur animi. Quaerat facilis quidem unde eos! Ipsa.</p>
+            </details>
+            <footer><p><a href="#top">[Top]</a></p></footer>
+          </article>
+          <article id="text__address">
+            <header><h1>Address</h1></header>
+            <address>
+              Written by <a href="mailto:webmaster@example.com">Jon Doe</a>.<br>
+              Visit us at:<br>
+              Example.com<br>
+              Box 564, Disneyland<br>
+              USA
+            </address>
             <footer><p><a href="#top">[Top]</a></p></footer>
           </article>
           <article id="text__hr">
-            <header><h1>Horizontal rules</h1></header>
+            <header><h2>Horizontal rules</h2></header>
             <div>
               <hr>
             </div>
             <footer><p><a href="#top">[Top]</a></p></footer>
           </article>
           <article id="text__tables">
-            <header><h1>Tabular data</h1></header>
+            <header><h2>Tabular data</h2></header>
             <table>
               <caption>Table Caption</caption>
               <thead>
@@ -175,7 +266,7 @@
             <footer><p><a href="#top">[Top]</a></p></footer>
           </article>
           <article id="text__code">
-            <header><h1>Code</h1></header>
+            <header><h2>Code</h2></header>
             <div>
               <p><strong>Keyboard input:</strong> <kbd>Cmd</kbd></p>
               <p><strong>Inline code:</strong> <code>&lt;div&gt;code&lt;/div&gt;</code></p>
@@ -192,7 +283,7 @@
             <footer><p><a href="#top">[Top]</a></p></footer>
           </article>
           <article id="text__inline">
-            <header><h1>Inline elements</h1></header>
+            <header><h2>Inline elements</h2></header>
             <div>
               <p><a href="#!">This is a text link</a>.</p>
               <p><strong>Strong is used to indicate strong importance.</strong></p>
@@ -204,7 +295,7 @@
               <p><s>This text has a strikethrough</s>.</p>
               <p>Superscript<sup>®</sup>.</p>
               <p>Subscript for things like H<sub>2</sub>O.</p>
-              <p><small>This small text is small for for fine print, etc.</small></p>
+              <p><small>This small text is small for fine print, etc.</small></p>
               <p>Abbreviation: <abbr title="HyperText Markup Language">HTML</abbr></p>
               <p><q cite="https://developer.mozilla.org/en-US/docs/HTML/Element/q">This text is a short inline quotation.</q></p>
               <p><cite>This is a citation.</cite></p>
@@ -216,7 +307,7 @@
             <footer><p><a href="#top">[Top]</a></p></footer>
           </article>
           <article id="text__comments">
-            <header><h1>HTML Comments</h1></header>
+            <header><h2>HTML Comments</h2></header>
             <div>
               <p>There is comment here: <!--This comment should not be displayed--></p>
               <p>There is a comment spanning multiple tags and lines below here.</p>
@@ -228,20 +319,33 @@
           </article>
         </section>
         <section id="embedded">
-          <header><h1>Embedded content</h1></header>
+          <header><h2>Embedded content</h2></header>
           <article id="embedded__images">
             <header><h2>Images</h2></header>
             <div>
-              <h3>No <code>&lt;figure&gt;</code> element</h3>
-              <p><img src="http://placekitten.com/480/480" alt="Image alt text"></p>
-              <h3>Wrapped in a <code>&lt;figure&gt;</code> element, no <code>&lt;figcaption&gt;</code></h3>
-              <figure><img src="http://placekitten.com/420/420" alt="Image alt text"></figure>
-              <h3>Wrapped in a <code>&lt;figure&gt;</code> element, with a <code>&lt;figcaption&gt;</code></h3>
+              <h3>Plain <code>&lt;img&gt;</code> element</h3>
+              <p><img src="https://placekitten.com/480/480" alt="Photo of a kitten"></p>
+              <h3><code>&lt;figure&gt;</code> element with <code>&lt;img&gt;</code> element</h3>
+              <figure><img src="https://placekitten.com/420/420" alt="Photo of a kitten"></figure>
+              <h3><code>&lt;figure&gt;</code> element with <code>&lt;img&gt;</code> and <code>&lt;figcaption&gt;</code> elements</h3>
               <figure>
-                <img src="http://placekitten.com/420/420" alt="Image alt text">
+                <img src="https://placekitten.com/420/420" alt="Photo of a kitten">
                 <figcaption>Here is a caption for this image.</figcaption>
               </figure>
+              <h3><code>&lt;figure&gt;</code> element with a <code>&lt;picture&gt;</code> element</h3>
+              <figure>
+                <picture>
+                  <source srcset="https://placekitten.com/800/800"
+                    media="(min-width: 800px)">
+                  <img src="https://placekitten.com/420/420" alt="Photo of a kitten" />
+                </picture>
+              </figure>
             </div>
+            <footer><p><a href="#top">[Top]</a></p></footer>
+          </article>
+          <article id="embedded__bgimages">
+            <header><h2>Background images</h2></header>
+            <div style="background-image:url('https://placekitten.com/300/300'); width:300px; height: 300px;"></div>
             <footer><p><a href="#top">[Top]</a></p></footer>
           </article>
           <article id="embedded__audio">
@@ -279,9 +383,19 @@
             <div><iframe src="index.html" height="300"></iframe></div>
             <footer><p><a href="#top">[Top]</a></p></footer>
           </article>
+          <article id="embedded__embed">
+            <header><h2>Embed</h2></header>
+            <div><embed src="index.html" height="300"></div>
+            <footer><p><a href="#top">[Top]</a></p></footer>
+          </article>
+          <article id="embedded__object">
+            <header><h2>Object</h2></header>
+            <div><object data="index.html" height="300"></object></div>
+            <footer><p><a href="#top">[Top]</a></p></footer>
+          </article>
         </section>
         <section id="forms">
-          <header><h1>Form elements</h1></header>
+          <header><h2>Form elements</h2></header>
           <form>
             <fieldset id="forms__input">
               <legend>Input fields</legend>
@@ -295,7 +409,7 @@
               </p>
               <p>
                 <label for="input__webaddress">Web Address</label>
-                <input id="input__webaddress" type="url" placeholder="http://yoursite.com">
+                <input id="input__webaddress" type="url" placeholder="https://yoursite.com">
               </p>
               <p>
                 <label for="input__emailaddress">Email Address</label>
@@ -314,12 +428,8 @@
                 <input id="input__text2" type="number" placeholder="Enter a Number">
               </p>
               <p>
-                <label for="input__text3" class="error">Error</label>
-                <input id="input__text3" class="is-error" type="text" placeholder="Text Input">
-              </p>
-              <p>
-                <label for="input__text4" class="valid">Valid</label>
-                <input id="input__text4" class="is-valid" type="text" placeholder="Text Input">
+                <label for="input__file">File Input</label>
+                <input id="input__file" type="file">
               </p>
             </fieldset>
             <p><a href="#top">[Top]</a></p>
@@ -335,11 +445,21 @@
                   </optgroup>
                 </select>
               </p>
+              <p>
+                <label for="select_multiple">Select (multiple)</label>
+                <select id="select_multiple" multiple="multiple">
+                  <optgroup label="Option Group">
+                    <option>Option One</option>
+                    <option>Option Two</option>
+                    <option>Option Three</option>
+                  </optgroup>
+                </select>
+              </p>
             </fieldset>
             <p><a href="#top">[Top]</a></p>
             <fieldset id="forms__checkbox">
               <legend>Checkboxes</legend>
-              <ul class="list list--bare">
+              <ul>
                 <li><label for="checkbox1"><input id="checkbox1" name="checkbox" type="checkbox" checked="checked"> Choice A</label></li>
                 <li><label for="checkbox2"><input id="checkbox2" name="checkbox" type="checkbox"> Choice B</label></li>
                 <li><label for="checkbox3"><input id="checkbox3" name="checkbox" type="checkbox"> Choice C</label></li>
@@ -348,10 +468,10 @@
             <p><a href="#top">[Top]</a></p>
             <fieldset id="forms__radio">
               <legend>Radio buttons</legend>
-              <ul class="list list--bare">
-                <li><label for="radio1"><input id="radio1" name="radio" type="radio" class="radio" checked="checked"> Option 1</label></li>
-                <li><label for="radio2"><input id="radio2" name="radio" type="radio" class="radio"> Option 2</label></li>
-                <li><label for="radio3"><input id="radio3" name="radio" type="radio" class="radio"> Option 3</label></li>
+              <ul>
+                <li><label for="radio1"><input id="radio1" name="radio" type="radio" checked="checked"> Option 1</label></li>
+                <li><label for="radio2"><input id="radio2" name="radio" type="radio"> Option 2</label></li>
+                <li><label for="radio3"><input id="radio3" name="radio" type="radio"> Option 3</label></li>
               </ul>
             </fieldset>
             <p><a href="#top">[Top]</a></p>
@@ -397,6 +517,15 @@
                 <label for="idtl">Datetime-local input</label>
                 <input type="datetime-local" id="idtl" value="1970-01-01T00:00">
               </p>
+              <p>
+                <label for="idl">Datalist</label>
+                <input type="text" id="idl" list="example-list">
+                <datalist id="example-list">
+                  <option value="Example #1" />
+                  <option value="Example #2" />
+                  <option value="Example #3" />
+                </datalist>
+              </p>
             </fieldset>
             <p><a href="#top">[Top]</a></p>
             <fieldset id="forms__action">
@@ -418,7 +547,7 @@
           </form>
         </section>
       </main>
-      <footer role="contentinfo">
+      <footer>
         <p>Made by <a href="http://twitter.com/cbracco">@cbracco</a>. Code on <a href="http://github.com/cbracco/html5-test-page">GitHub</a>.</p>
       </footer>
     </div>
