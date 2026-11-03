@@ -4,7 +4,7 @@
   "description": "A page filled with common HTML elements to be used for testing purposes.",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --test tests/*.test.js"
   },
   "repository": {
     "type": "git",
