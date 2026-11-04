@@ -34,3 +34,33 @@ test('Emoji examples support different font sizes', () => {
 test('Emoji example includes accessible text', () => {
   assert.match(html, /aria-label="Smiling face"/);
 });
+
+
+test('HTML document declares its language', () => {
+  assert.match(html, /<html[^>]*lang=["'][^"']+["']/i);
+});
+
+test('HTML document contains a title', () => {
+  assert.match(html, /<title>[^<]+<\/title>/i);
+});
+
+test('HTML document contains a body', () => {
+  assert.match(html, /<body[^>]*>/i);
+});
+
+test('HTML document contains a main heading', () => {
+  assert.match(html, /<h1[^>]*>.*?<\/h1>/is);
+});
+
+test('HTML document contains image elements', () => {
+  assert.match(html, /<img\b/i);
+});
+
+test('HTML document contains figure elements', () => {
+  assert.match(html, /<figure\b/i);
+});
+
+test('HTML document contains accessible image descriptions', () => {
+  assert.match(html, /<img[^>]*\balt=["'][^"']+["']/i);
+});
+
